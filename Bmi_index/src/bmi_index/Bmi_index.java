@@ -43,7 +43,7 @@ public class Bmi_index {
     private static void ertekeles(int tomeg, int mag, double bmiIndex) {
         String testalkat;
         String[] testalkatok = {"sovány", "normál", "túlsúlyos", "kórosan túlsúlyos"};
-        double[] hatarok = {18.4, 24.9, 29.9};
+        double[] hatarok = {20, 25, 30};
         int i = 0;
         int hossz = hatarok.length;
         while (i < hossz && !(bmiIndex <= hatarok[i])) {
@@ -57,4 +57,3 @@ public class Bmi_index {
     }
 }
 
-}
